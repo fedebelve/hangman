@@ -2,7 +2,7 @@
 @import "./phoenix.css";
 
 /* Alerts and form errors used by phx.new */
-.alert {
+/* .alert {
   padding: 15px;
   margin-bottom: 20px;
   border: 1px solid transparent;
@@ -36,7 +36,7 @@
 }
 
 /* LiveView specific classes for your customization */
-.phx-no-feedback.invalid-feedback,
+/* .phx-no-feedback.invalid-feedback,
 .phx-no-feedback .invalid-feedback {
   display: none;
 }
@@ -117,4 +117,30 @@
 @keyframes fade-out-keys{
   0% { opacity: 1; }
   100% { opacity: 0; }
+} */ 
+
+.tally th{
+  font-weight: normal;
+  color: #aaa;
+}
+
+.tally td{
+  font-weight: bold;
+  font-size: 2rem;
+  letter-spacing: 0.25rem;
+
+}
+
+form input{
+  max-width: 4rem;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.status.bad-guess{
+  color: red;
+}
+
+.status.good-guess{
+  color: green;
 }
